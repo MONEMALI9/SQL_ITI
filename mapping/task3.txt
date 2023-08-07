@@ -1,0 +1,11 @@
+patient(ID , name , dob , ward_id , consultant_id)
+
+consultant(ID , name)
+
+ward(ID , name , nurse_ID)
+
+nurse(ID , name , ward_id)
+
+drug(CODE , dosage)
+
+give_drug(nurse_id , date , time , dosage , drug_code , patient_id)

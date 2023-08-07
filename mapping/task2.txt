@@ -1,0 +1,9 @@
+sales_office(NUM , location , empid)
+
+employee(ID , name , salesnum)
+
+property(ID , add , city , state , zip , salesname)
+
+owner(ID , name)
+
+property_owner(PRO_ID , OWNER_ID , percent_owned)

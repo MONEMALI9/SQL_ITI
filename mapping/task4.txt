@@ -1,0 +1,16 @@
+airline(ID , name , address , contact)
+
+crew(ID , pilot , hostess , aircraft_id , airline_id , model , capacity)
+
+phone(airline_id , phone)
+
+employee(ID , name , address , position , gender , day , month , year , airline_id)
+
+qualification(emp_id , qualification)
+
+transaction(ID , desc , date , amount , airline_id)
+
+route(ID , distance , origin , classification , dectination)
+
+aircraftroute(aircraft_id , route_id , arrival_date_time , dep_date_time , price ,timespent)
+
